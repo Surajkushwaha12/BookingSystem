@@ -5,7 +5,7 @@ const cors = require("cors")
 const auth = require("./routes/auth.js")
 const house = require("./routes/house.js")
 const reservations = require("./routes/reservations.js")
-const port = process.env.PORT ;
+const port = process.env.PORT||3001 ;
 
 
 require('dotenv').config();
