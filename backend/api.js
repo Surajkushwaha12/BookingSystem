@@ -25,7 +25,7 @@ app.use("/reservations", reservations)
 
 
 async function main() {
-    await mongoose.connect(`mongodb+srv://dbuser:12345@atlascluster.jjnuiom.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster`)
+    await mongoose.connect(`mongodb+srv://surajkushwaha8272:Suraj123@cluster0.ukjysjt.mongodb.net/bookingsystem`)
     try {
         app.listen(port, () => {
             console.log(`Server is running on port ${port}`)
